@@ -20,7 +20,7 @@ body {
     display: flex;
 }
 
-.blog_1 , .blog_2 {
+.blog_1 , .blog_2 , .blog_3 {
     width: 450px;
     height: 250px;
     background-color: rgb(5, 5, 136);
@@ -29,6 +29,10 @@ body {
 }
 
 .blog_2 {
+    margin-left: 15px;
+}
+
+.blog_3 {
     margin-left: 15px;
 }
 
