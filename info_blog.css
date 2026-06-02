@@ -12,9 +12,19 @@ body {
     background-color: black;
 }
 
+.section_2 {
+    display: flex;
+}
+
 .blog_1 , .blog_2 {
     width: 450px;
     height: 250px;
     background-color: rgb(5, 5, 136);
     border-radius: 8px;
+    margin-top: 20px;
 }
+
+.blog_2 {
+    margin-left: 15px;
+}
+
