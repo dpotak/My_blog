@@ -1,10 +1,20 @@
 .FirstName_1 {
     color: green;
+    font-size: 45px;
 }
-
-.section_1 {}
 
 .name_blog {
     margin-top: 10px;
     margin-left: 120px;
+}
+
+body {
+    background-color: black;
+}
+
+.blog_1 , .blog_2 {
+    width: 450px;
+    height: 450px;
+    background-color: rgb(5, 5, 136);
+    border-radius: 8px;
 }
