@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ansible</title>
-</head>
-<body>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="my_blog_dog_css/ansible.css">
+        <title>Ansible</title>
+    </head>
+    <body>
+        <section class="article">
+
+<h1>
+Что такое Ansible
+</h1>
+
+<p class="date">
+15 июня 2026 • 5 мин чтения
+</p>
+
+
+<div class="content">
+    <p> Ansible — это инструмент автоматизации, который позволяет управлять серверами.</p>
+    <p> С его помощью можно автоматически устанавливать программы, обновлять конфигурации и запускать команды сразу на нескольких машинах.</p>
     
+    <h2>Пример структуры проекта</h2>
+
+<pre>
+ansible/
+
+├── inventory
+
+├── playbooks
+
+└── roles
+</pre>
+
+
+<p>
+Для своего проекта я использую
+Ansible для подготовки сервера
+под Flask, React и MongoDB.
+</p>
+
+
+<h2>
+Пример playbook
+</h2>
+
+<pre>
+- hosts: all
+  become: true
+
+  tasks:
+
+    - name: install nginx
+      apt:
+        name: nginx
+        state: present
+</pre>
+
+
+<p>
+Дальше можно продолжать статью сколько угодно —
+страница будет листаться автоматически.
+</p>
+
+</div>
+
+</section>
+
 </body>
+
 </html>

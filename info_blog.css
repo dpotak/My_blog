@@ -1,39 +1,264 @@
-.FirstName_1 {
-    color: green;
-    font-size: 45px;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
-.name_blog {
-    margin-top: 10px;
-    margin-left: 120px;
+body{
+
+background:#050505;
+
+color:white;
+
+font-family:Arial, sans-serif;
+
+min-height:100vh;
+
 }
 
-body {
-    background-color: black;
+
+/* Верх */
+
+.hero{
+
+padding-top:90px;
+
+padding-bottom:60px;
+
+display:flex;
+
+justify-content:center;
+
 }
 
-.h3_kogemus_1 {
-    color: white;
+.hero_content{
+
+width:90%;
+
+max-width:1200px;
+
 }
 
-.section_2 {
-    display: flex;
+.title{
+
+font-size:56px;
+
+color:#00ff88;
+
+margin-bottom:20px;
+
 }
 
-.blog_1 , .blog_2 , .blog_3 {
-    width: 450px;
-    height: 250px;
-    background-color: rgb(5, 5, 136);
-    border-radius: 8px;
-    margin-top: 20px;
-    margin-left: 120px;
+.subtitle{
+
+font-size:22px;
+
+color:#c9c9c9;
+
+margin-bottom:40px;
+
+line-height:1.6;
+
 }
 
-.blog_2 {
-    margin-left: 15px;
+
+/* Языки */
+
+.languages_blog{
+
+display:flex;
+
+gap:14px;
+
 }
 
-.blog_3 {
-    margin-left: 15px;
+.lang{
+
+background:#121212;
+
+border:1px solid #222;
+
+border-radius:12px;
+
+padding:8px;
+
+cursor:pointer;
+
+transition:0.3s;
+
 }
 
+.lang:hover{
+
+transform:translateY(-3px);
+
+border-color:#00ff88;
+
+}
+
+.lang img{
+
+width:40px;
+
+height:40px;
+
+border-radius:50%;
+
+}
+
+
+/* Блог */
+
+.blog_container{
+
+width:90%;
+
+max-width:1400px;
+
+margin:auto;
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:30px;
+
+justify-content:center;
+
+padding-bottom:80px;
+
+}
+
+
+/* Карточки */
+
+.blog_card{
+
+width:360px;
+
+min-height:320px;
+
+padding:35px;
+
+background:#0e0e0e;
+
+border-radius:18px;
+
+border:1px solid #202020;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:space-between;
+
+transition:0.4s;
+
+box-shadow:
+0 0 25px rgba(0,255,136,.03);
+
+}
+
+.blog_card:hover{
+
+transform:
+translateY(-10px);
+
+border-color:#00ff88;
+
+box-shadow:
+0 0 35px rgba(0,255,136,.2);
+
+}
+
+.blog_card h2{
+
+font-size:32px;
+
+color:#00ff88;
+
+margin-bottom:25px;
+
+}
+
+.description{
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+.description p{
+
+color:#d8d8d8;
+
+font-size:18px;
+
+line-height:1.5;
+
+}
+
+
+/* Кнопка */
+
+.blog_btn{
+
+margin-top:35px;
+
+display:inline-block;
+
+text-decoration:none;
+
+background:#00ff88;
+
+color:black;
+
+padding:
+
+14px
+26px;
+
+border-radius:10px;
+
+font-weight:bold;
+
+transition:0.3s;
+
+}
+
+.blog_btn:hover{
+
+background:white;
+
+transform:scale(1.04);
+
+}
+
+
+
+/* Телефон */
+
+@media(max-width:768px){
+
+.title{
+
+font-size:38px;
+
+}
+
+.subtitle{
+
+font-size:18px;
+
+}
+
+.blog_card{
+
+width:100%;
+
+}
+
+}

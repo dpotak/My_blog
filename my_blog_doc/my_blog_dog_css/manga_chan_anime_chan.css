@@ -1,0 +1,100 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#050505;
+color:white;
+font-family:Arial;
+line-height:1.7;
+}
+
+
+/* Контейнер статьи */
+
+.article{
+max-width:900px;
+margin:auto;
+padding:80px 30px;
+}
+
+
+/* Заголовок */
+
+.header h1{
+color:#00ff88;
+font-size:48px;
+margin-bottom:10px;
+}
+
+.subtitle{
+color:#cfcfcf;
+font-size:20px;
+margin-bottom:10px;
+}
+
+.date{
+color:gray;
+margin-bottom:50px;
+}
+
+
+/* Блоки */
+
+.block{
+margin-bottom:50px;
+}
+
+.block h2{
+color:#00ff88;
+margin-bottom:20px;
+font-size:28px;
+}
+
+
+/* Текст */
+
+p{
+margin-bottom:15px;
+font-size:18px;
+color:#e6e6e6;
+}
+
+
+/* Списки */
+
+ul{
+padding-left:20px;
+}
+
+li{
+margin-bottom:10px;
+}
+
+
+/* Код */
+
+pre{
+background:#111;
+padding:20px;
+border-radius:12px;
+overflow-x:auto;
+margin-top:15px;
+}
+
+
+/* Телефон */
+
+@media(max-width:768px){
+
+.article{
+padding:40px 20px;
+}
+
+.header h1{
+font-size:32px;
+}
+
+}

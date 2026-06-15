@@ -1,73 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="info_blog.css">
-    <link rel="icon" href="languages/code-solid.svg" type="image/x-icon"> <!-- Icon -->
-    <title>Blog dpotak</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="info_blog.css">
+<link rel="icon" href="languages/code-solid.svg">
+
+<title>Blog dpotak</title>
+
 </head>
+
 <body>
-   <section class="section_1">
-     <div class="name_blog">
-        <h1 class="FirstName_1">Добро пожаловать в мой блог</h1>
 
-        <div class="sect_1">
-            <div class="">
-                <h3 class="h3_kogemus_1">Здесь я делюсь своим опытом.</h3>
-            </div>
+<section class="hero">
 
-            <div class="languages_blog">
-              <button class="est_btn"><img src="languages/estonian_flags.png" width="35px" height="35px"></a></button>
-              <button class="eng_btn"><img src="languages/britain_flags.png" width="35px" height="35px"></button>
-              <button class="rus_btn"><img src="languages/russian_flag.jpg" width="35px" height="35px"></button>
-            </div>
-        </div>
-    </div>
-   </section>
+<div class="hero_content">
 
-    <section class="section_2">
-        <div class="blog_1">
-            <h3 class="name_text_1">Ansible</h3>
-            
-            <div class="text_vstipol_1">
-                <p class="">Что такое Ansible</p>
-                <p class="">Пример автоматизации</p>
-            </div>
+<h1 class="title">
+Добро пожаловать в мой блог
+</h1>
 
-            <div class="blog_1_btn_sect">
-                <button class="blog_1_btn"><a href="my_blog_doc/Ansible.html">Читать</a></button>
-            </div>
-        </div>
+<p class="subtitle">
+Здесь я делюсь опытом, проектами и изучением технологий
+</p>
 
-        <div class="blog_2">
-            <h3 class="name_text_2">Vagrant</h3>
+<div class="languages_blog">
 
-            <div class="text_vstipol_2">
-                <p class="">Что такое Vagrant</p>
-                <p class=""></p>
-            </div>
+<button class="lang">
+<img src="languages/estonian_flags.png">
+</button>
 
-             <div class="blog_2_btn_sect">
-                <button class="blog_2_btn"><a href="my_blog_doc/Vagrant.html">Читать</a></button>
-             </div>
-        </div>
+<button class="lang">
+<img src="languages/britain_flags.png">
+</button>
 
-        <div class="blog_3">
-            <h3 class="name_text_3">Manga-Chan-Anime-Chan</h3>
+<button class="lang">
+<img src="languages/russian_flag.jpg">
+</button>
 
-            <div class="text_vstipol_3">
-                <p class="">О проекте</p>
-                <p class=""></p>
-            </div>
+</div>
 
-             <div class="blog_3_btn_sect">
-                <button class="blog_3_btn"><a href="my_blog_doc/manga_chan_anime.html">Читать</a></button>
-             </div>
-        </div>
-    </section>
+</div>
 
-    <script src="blog.js"></script>
+</section>
+
+
+<section class="blog_container">
+
+<div class="blog_card">
+
+<h2>Ansible</h2>
+
+<div class="description">
+
+<p>Что такое Ansible</p>
+
+<p>Автоматизация серверов</p>
+
+<p>Примеры playbook</p>
+
+</div>
+
+<a href="my_blog_doc/Ansible.html" class="blog_btn">
+Читать →
+</a>
+
+</div>
+
+
+<div class="blog_card">
+
+<h2>Vagrant</h2>
+
+<div class="description">
+
+<p>Что такое Vagrant</p>
+
+<p>Создание виртуальных машин</p>
+
+<p>Работа с инфраструктурой</p>
+
+</div>
+
+<a href="my_blog_doc/Vagrant.html" class="blog_btn">
+Читать →
+</a>
+
+</div>
+
+
+<div class="blog_card">
+
+<h2>Manga-Chan-Anime-Chan</h2>
+
+<div class="description">
+
+<p>О проекте</p>
+
+<p>Архитектура сайта</p>
+
+<p>Планы разработки</p>
+
+</div>
+
+<a href="my_blog_doc/manga_chan_anime.html" class="blog_btn">
+Читать →
+</a>
+
+</div>
+
+</section>
+
+<script src="blog.js"></script>
+
 </body>
 </html>
-
