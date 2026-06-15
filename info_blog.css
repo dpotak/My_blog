@@ -31,6 +31,13 @@ justify-content:center;
 
 }
 
+.hero_2 {
+    margin-left:240px;
+    font-size:26px;
+    color:#00ff88;
+    margin-bottom:20px;
+}
+
 .hero_content{
 
 width:90%;
