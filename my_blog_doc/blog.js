@@ -43,3 +43,4 @@ prevBtn.addEventListener("click",()=>{
 });
 
 showPage(currentPage);
+
