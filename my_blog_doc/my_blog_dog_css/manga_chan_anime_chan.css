@@ -121,4 +121,12 @@ font-size:32px;
 .pagination button{
     padding:10px 20px;
     cursor:pointer;
+    border-radius: 8px;
+    background-color:#00ff88;
 }
+
+.pagination button:hover {
+    transform: translateZ(0) scale(1.05);
+    box-shadow: 0 0 20px rgba(0,255,136,.7);
+}
+
