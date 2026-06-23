@@ -1,77 +1,39 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
-
-<link rel="stylesheet"
-href="my_blog_dog_css/Vagrant.css">
-
-<title>Vagrant</title>
-
-</head>
-
-<body>
-
-<article class="article">
-
-<header class="header">
-
-<h1>Vagrant</h1>
-
-<p class="subtitle">
-Инструмент для создания и управления виртуальными машинами
-</p>
-
-<p class="date">
-2026 • DevOps практика
-</p>
-
-</header>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="my_blog_dog_css/Vagrant.css">
+    <title>Vagrant</title>
+  </head>
+  <body>
+    <article class="article">
+      <header class="header">
+        <h1>Vagrant</h1>
+        <p class="subtitle"> Инструмент для создания и управления виртуальными машинами</p>
+        <p class="date"> 2026 • DevOps практика </p>
+      </header>
+      
+      <section class="block">
+        <h2>Что такое Vagrant</h2>
+        <p>Vagrant — это инструмент, который позволяет быстро создавать и настраивать виртуальные машины через конфигурационный файл. </p>
+        <p>Он часто используется вместе с VirtualBox, Docker или другими провайдерами.</p>
+      </section>
+      
+      <section class="block">
+        <h2>Зачем он нужен</h2>
+        <ul>
+          <li>Быстрое создание тестовых окружений</li>
+          <li>Повторяемость инфраструктуры</li>
+          <li>Удобство для разработки</li>
+          <li>Работа в команде с одинаковыми окружениями</li>
+        </ul>
+      </section>
 
 
-<section class="block">
-
-<h2>Что такое Vagrant</h2>
-
-<p>
-Vagrant — это инструмент,
-который позволяет быстро создавать
-и настраивать виртуальные машины
-через конфигурационный файл.
-</p>
-
-<p>
-Он часто используется вместе с VirtualBox,
-Docker или другими провайдерами.
-</p>
-
-</section>
-
-
-<section class="block">
-
-<h2>Зачем он нужен</h2>
-
-<ul>
-<li>Быстрое создание тестовых окружений</li>
-<li>Повторяемость инфраструктуры</li>
-<li>Удобство для разработки</li>
-<li>Работа в команде с одинаковыми окружениями</li>
-</ul>
-
-</section>
-
-
-<section class="block">
-
-<h2>Пример Vagrantfile</h2>
-
-<pre>
+      <section class="block">
+        <h2>Пример Vagrantfile</h2>
+        <pre>
 Vagrant.configure("2") do |config|
 
   config.vm.box = "ubuntu/bionic64"
@@ -84,25 +46,14 @@ Vagrant.configure("2") do |config|
   end
 
 end
-</pre>
+      </pre>
+    </section>
 
-</section>
-
-
-<section class="block">
-
-<h2>Как я использую Vagrant</h2>
-
-<p>
-Я использую Vagrant для тестовых серверов,
-где настраиваю Ansible, Apache и backend-сервисы
-перед переносом на реальный VPS.
-</p>
-
-</section>
-
-</article>
-
+    <section class="block">
+      <h2>Как я использую Vagrant</h2>
+      <p> Я использую Vagrant для тестовых серверов, где настраиваю Ansible, Apache и backend-сервисы перед переносом на реальный VPS.</p>
+    </section>
+  
+  </article>
 </body>
-
 </html>
